@@ -56,6 +56,9 @@ body{
     bottom: 1px;
 }
 
+
+}
+
 .sve:hover .text{
     opacity: 1;
 }
