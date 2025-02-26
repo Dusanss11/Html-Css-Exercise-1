@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a5.css">
+</head>
+<body>
+    <h1>Pricing</h1>
+    <div class="menu">
+        <div class="jedan">
+            <div class="sve">
+            <div class="header">BASIC</div>
+            <div class="sadrzaj"><div class="naslov"><span>$29</span>/month</div>
+            <div class="sadrzaj1">
+                <p class="text"><b>Free</b> sales point one</p>
+                <p class="text"><b>Unlimited</b> sales point two</p>
+                <p class="text"><b>Really good</b> sales point three</p>
+                <p class="text"><b>Unlimited</b> sales point four</p>   
+            </div>
+            <input type="button" value="BUY NOW">
+            </div>
+            </div>
+        </div>
+        <div class="dva">
+            <div class="sve">
+            <div class="header" style="background-color: var(--crvena);">BEST VALUE</div>
+            <div class="sadrzaj"><div class="naslov" style="color: var(--crvena);"><span style="color: var(--crvena);">$49</span>/month</div>
+            <div class="sadrzaj1">
+                <p class="text"><b>Free</b> sales point one</p>
+                <p class="text"><b>Unlimited</b> sales point two</p>
+                <p class="text"><b>Really good</b> sales point three</p>
+                <p class="text"><b>Unlimited</b> sales point four</p>   
+            </div>
+            <input type="button" style="background-color: var(--crvena); border: 1px solid var(--crvena);" value="BUY NOW">
+            </div>
+        </div>
+        </div>
+        <div class="tri">
+            <div class="sve">
+            <div class="header">SUPER</div>
+            <div class="sadrzaj"><div class="naslov"><span>$109</span>/month</div>
+            <div class="sadrzaj1">
+                <p class="text"><b>Free</b> sales point one</p>
+                <p class="text"><b>Unlimited</b> sales point two</p>
+                <p class="text"><b>Really good</b> sales point three</p>
+                <p class="text"><b>Unlimited</b> sales point four</p>   
+            </div>
+            <input type="button" value="BUY NOW">
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
