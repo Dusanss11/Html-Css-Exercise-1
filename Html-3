@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="test8.css">
+</head>
+<body>
+<div class="sve">
+<form type="get" action="#">
+    <div class="inp">
+    <label for="ime">Unesi svoje ime :</label>
+    <input required autocomplete  type="text" id="ime">
+</div>
+<div class="inp">
+    <label for="prezime">Unesi svoje prezime :</label>
+    <input required autocomplete   type="text" id="prezime">
+</div>
+<div class="inp">
+    <label for="mail">Unesi svoj mail :</label>
+    <input required autocomplete   type="email" id="mail">
+</div>
+<div class="inp">
+    <label for="select">Unesi omiljen broj :</label>
+    <select id="select">
+        <option>Jedan</option>
+        <option>Dva</option>
+        <option>Tri</option>
+        <option>Cetiri</option>
+    </select>
+</div>
+<div class="sub">
+    <input type="submit">
+</div>
+</form>
+</div>
+</body>
+</html>
