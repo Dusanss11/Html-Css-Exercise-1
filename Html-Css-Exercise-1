@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.sve{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.slika{
+    display: block;
+    width: inherit;
+    height: inherit;
+    margin-top: 40px;
+    border: 1px solid #3b3b3b;
+}
+
+.prelaz{
+    position: absolute;
+    height: 0;
+    width:148px;
+    opacity: 1;
+    top:79px;
+    left: 1px;
+    bottom: 79px;
+    right: 0;
+    background-color: cadetblue;
+    transition: height 1s, top 1s, bottom 1s;
+    overflow: hidden;
+}
+
+.text{
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.sve:hover .prelaz{
+    height:148px;
+    top: 1px;
+    bottom: 1px;
+}
+
+.sve:hover .text{
+    opacity: 1;
+}
