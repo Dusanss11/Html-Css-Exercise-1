@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body{
+    background-color: sandybrown;
+}
+
+.sve{
+    width: 360px;
+    margin: auto;
+    height: 250px;
+    margin-top: 20px;
+    background-color:chocolate;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.inp{
+    display: block;
+}
+
+.sve label{
+    margin-left: 20px;
+}
+
+.sve input{
+    border: 1px solid brown;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 20px;
+    width: 150px;
+    transition: width 2s;
+    position: relative;
+    padding: 2px;
+}
+
+.sve select{
+    border: 1px solid brown;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 20px;
+    width: 150px;
+}
+
+.sub input{
+    margin-left: 100px;
+    margin-top: 14px;
+}
+
+.sve select:hover{
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+}
+
+.sve input:hover{
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+}
+
+.sve input:focus{
+    background-color: brown;
+    color: rgb(208, 242, 243);
+    border: 1px solid black;
+    padding: 2px;
+}
