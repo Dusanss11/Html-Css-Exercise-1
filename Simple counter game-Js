@@ -1,0 +1,26 @@
+let exp = 0;
+
+function addexp(){
+    exp++;
+    document.getElementById("exp").innerHTML = exp;
+}
+
+function rstexp(){
+    exp = 0;
+    document.getElementById("exp").innerHTML = exp;
+}
+
+function defeat(){
+    if (exp > 10){
+        document.getElementById("text").style.visibility = 'visible';
+        document.getElementById("text").innerHTML = 'You win!';
+        document.getElementById("text").style.color = 'yellow';
+        document.getElementById("nlv").style.visibility = 'visible';
+    }   else {
+        document.getElementById("text").style.color = 'red';
+        document.getElementById("text").style.visibility = 'visible';
+        exp = 0;
+        document.getElementById("exp").innerHTML = exp;
+        document.getElementById("text").innerHTML = 'Try again!';
+    }
+}
