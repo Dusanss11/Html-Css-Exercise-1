@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="b1.css">
+</head>
+<body>
+    <div class="all">
+        <p style="text-decoration: underline; text-decoration-skip-ink: none;text-underline-offset: 2px;">Defeat Enemy</p>
+        <p>Reach more than 10exp to defeat</p>
+        <p>Current exp points: <span id="exp">0</span></p>
+        <div class="smln"><button class='btn' onclick="addexp()" style="margin-right: 20px;">Add exp</button>
+        <button class='btn' onclick="rstexp()">Reset exp</button></div>
+        <div class="smln"><button class='btn' onclick="defeat()">Defeat</button></div>
+        <p id="text">a</p>
+        <div class="smln"><button id='nlv' style="margin-top: 10px;">Next Level</button></div>
+    </div>
+    <script src="b1.js"></script>
+</body>
+</html>
